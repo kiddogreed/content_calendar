@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/content-calendar.iml" filepath="$PROJECT_DIR$/.idea/content-calendar.iml" />
+      <module fileurl="file://$PROJECT_DIR$/content-calendar/content-calendar.iml" filepath="$PROJECT_DIR$/content-calendar/content-calendar.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/content_calendar.iml" filepath="$PROJECT_DIR$/.idea/content_calendar.iml" />
     </modules>
   </component>
 </project>
