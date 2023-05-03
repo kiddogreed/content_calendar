@@ -40,10 +40,10 @@
 
 #  reference
     1. Moddle doc -Code Indention   
-         * [Code Indention](https://docs.moodle.org/402/en/Markdown#:~:text=Bullet%20point%20lists%20can%20be,and%20should%20not%20be%20forgotten)
+[Code Indention](https://docs.moodle.org/402/en/Markdown#:~:text=Bullet%20point%20lists%20can%20be,and%20should%20not%20be%20forgotten)
       
     2. Reference Code - github
-        * [Github code](https://www.stevemar.net/github-code-in-readme/#:~:text=Here's%20a%20quick%20way%20to,show%20up%20in%20your%20README.&text=Go%20to%20the%20source%20code,in%20all%20of%20its%20glory!)
+[Github code](https://www.stevemar.net/github-code-in-readme/#:~:text=Here's%20a%20quick%20way%20to,show%20up%20in%20your%20README.&text=Go%20to%20the%20source%20code,in%20all%20of%20its%20glory!)
     
     3. Creating Links - url
-        *  * [ref](https://anvilproject.org/guides/content/creating-links#:~:text=Markdown%20syntax%20for%20a%20hyperlink,the%20parentheses%20hold%20the%20link.)
+[ref](https://anvilproject.org/guides/content/creating-links#:~:text=Markdown%20syntax%20for%20a%20hyperlink,the%20parentheses%20hold%20the%20link.)
