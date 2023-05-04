@@ -24,6 +24,10 @@
      public Optional<Content> findById(Integer id){
      return content.stream().filter(c->c.id().equals(id)).findFirst();
      }
+<br><br>
+   * https://github.com/kiddogreed/content_calendar/blob/a17dcc15ad7c572c6073ca33e3d7bdbfbb8d93e0/content-calendar/src/main/java/spr3/web/contentcalendar/repository/ContentCollectionRepository.java#L31-L44
+   # @Construct Annotation
+   <br><br>
    https://github.com/kiddogreed/content_calendar/blob/d6c56729b581fe382afe0741b508ae7bed9848f0/content-calendar/src/main/java/spr3/web/contentcalendar/repository/ContentCollectionRepository.java#L12-L25
 <br><br>    
 4. Back at Content controller 
@@ -33,8 +37,22 @@
        public List<Content> findAll();
            return reposity.findAll();
    https://github.com/kiddogreed/content_calendar/blob/f9b318af528e92721c41cb463e12bba46fb7b029/content-calendar/src/main/java/spr3/web/contentcalendar/controller/ContentController.java#L20-L23
-        
 
+   <br>
+* get byid  method with exception handling
+  https://github.com/kiddogreed/content_calendar/blob/a17dcc15ad7c572c6073ca33e3d7bdbfbb8d93e0/content-calendar/src/main/java/spr3/web/contentcalendar/controller/ContentController.java#L34-L37
+
+* create save method in ContentCollection Repository
+  https://github.com/kiddogreed/content_calendar/blob/a17dcc15ad7c572c6073ca33e3d7bdbfbb8d93e0/content-calendar/src/main/java/spr3/web/contentcalendar/repository/ContentCollectionRepository.java#L46-L48
+
+* create post method save and add @PostMapping annotation
+
+
+# Endpoints
+http://localhost:8082/   home
+http://localhost:8082/v1/api/content  get all
+http://localhost:8082/  get by id
+http://localhost:8082/  create
 
 
 
